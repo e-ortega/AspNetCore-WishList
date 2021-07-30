@@ -33,7 +33,7 @@ namespace WishList
             }
 
             app.UseRouting();
-            app.UseEndpoints(endopoints => { endopoints.MapDefaultControllerRoute(); });
+            app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
         }
     }
 }
